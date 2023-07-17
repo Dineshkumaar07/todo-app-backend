@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://todo-app.onrender.com"],
+    origin: ["http://localhost:3000", "https://todo-app-dineshms.onrender.com"],
   })
 );
 app.use("/task", taskRoutes);
